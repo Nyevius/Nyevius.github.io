@@ -274,3 +274,21 @@ document.querySelectorAll('.card-carousel').forEach(carousel => {
         });
     });
 })();
+
+/* ── Language switcher ──────────────────────────────────── */
+document.addEventListener("DOMContentLoaded", function() {
+    const btn      = document.getElementById("lang-btn");
+    const dropdown = document.getElementById("lang-dropdown");
+    if (!btn || !dropdown) return;
+
+    btn.addEventListener("click", function(e) {
+        e.stopPropagation();
+        const isOpen = dropdown.classList.toggle("open");
+        btn.classList.toggle("open", isOpen);
+    });
+
+    document.addEventListener("click", function() {
+        dropdown.classList.remove("open");
+        btn.classList.remove("open");
+    });
+});

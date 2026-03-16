@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spirit Dash — Game Concept Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="spirit-dash.css">
+</head>
+<body>
+
+    <a href="index.html" class="back-link">Portfolio</a>
+    <div class="sd-lang-switcher">
+        <button class="sd-lang-btn" id="lang-btn" aria-label="Switch language">
+            <span class="lang-current">EN</span>
+            <svg width="10" height="10" viewBox="0 0 10 10" fill="currentColor"><path d="M2 3.5L5 6.5L8 3.5" stroke="currentColor" stroke-width="1.2" fill="none" stroke-linecap="round"/></svg>
+        </button>
+        <div class="sd-lang-dropdown" id="lang-dropdown">
+            <a href="spirit-dash.html" class="sd-lang-option sd-lang-option--active">EN — English</a>
+            <a href="../fr/spirit-dash.html" class="sd-lang-option">FR — Français</a>
+        </div>
+    </div>
+
+    <!-- ── Hero ─────────────────────────────────────────────── -->
+    <header class="hero">
+        <div class="hero-rune"></div>
+
+        <p class="hero-label">Game Concept Document</p>
+
+        <h1 class="hero-title">
+            Spirit Dash
+            <span>The spirit and the blade are one</span>
+        </h1>
+
+        <div class="hero-divider">
+            <div class="hero-divider-line"></div>
+            <span class="hero-divider-glyph">༺༻</span>
+            <div class="hero-divider-line"></div>
+        </div>
+
+        <p class="hero-pitch">
+            A spirit with no memory. A spiritual sword. Ancient ruins
+            where every throw is a choice — <em>strike, flee, or dash through the void.</em>
+        </p>
+
+        <div class="hero-tags">
+            <span class="hero-tag accent">Action Platformer</span>
+            <span class="hero-tag accent">Puzzle</span>
+            <span class="hero-tag moss">PC · Consoles</span>
+            <span class="hero-tag">13+</span>
+            <span class="hero-tag">Concept solo</span>
+        </div>
+
+        <div class="scroll-cue">
+            <div class="scroll-cue-line"></div>
+            Read
+        </div>
+    </header>
+
+    <!-- ── Contenu ───────────────────────────────────────────── -->
+    <main class="content">
+
+        <!-- Pitch & Fiche technique -->
+        <div class="section">
+            <div class="section-header">
+                <span class="section-num">01</span>
+                <span class="section-title">Pitch &amp; Technical sheet</span>
+                <div class="section-rule"></div>
+            </div>
+
+            <div class="pitch-layout">
+                <div class="pitch-text">
+                    <p>Awaken as a spirit with no memory, lost within <em>ancient ruins</em>. Take up a spiritual sword — your only companion, capable of cutting through matter and pulling your soul towards it.</p>
+                    <p>Cross forgotten temples, avoid deadly traps and face the spirits of ancient guardians to <em>recover the fragments of your past</em>.</p>
+                    <p>In Spirit Dash, every sword throw is a choice: strike, flee, or dash through the void.</p>
+                </div>
+                <div class="pitch-meta">
+                    <div class="meta-row">
+                        <span class="meta-key">Genre</span>
+                        <span class="meta-val">Action / Puzzle Platformer / RPG</span>
+                    </div>
+                    <div class="meta-row">
+                        <span class="meta-key">Audience</span>
+                        <span class="meta-val">13+ — Achievers, Thinkers, players who enjoy precision</span>
+                    </div>
+                    <div class="meta-row">
+                        <span class="meta-key">Platforms</span>
+                        <span class="meta-val">PC, Consoles</span>
+                    </div>
+                    <div class="meta-row">
+                        <span class="meta-key">View</span>
+                        <span class="meta-val">2D side-view</span>
+                    </div>
+                    <div class="meta-row">
+                        <span class="meta-key">Status</span>
+                        <span class="meta-val">Documented concept</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ornament">
+            <div class="ornament-line"></div>
+            <span class="ornament-center">✦</span>
+            <div class="ornament-line"></div>
+        </div>
+
+        <!-- Mécanique centrale -->
+        <div class="section">
+            <div class="section-header">
+                <span class="section-num">02</span>
+                <span class="section-title">Core mechanic — The spiritual sword</span>
+                <div class="section-rule"></div>
+            </div>
+
+            <p class="mechanic-intro">
+                The spiritual sword is at the heart of the entire experience. It is not just a weapon:
+                it is a mobility tool, a puzzle-solver, an extension of the player's soul.
+            </p>
+
+            <div class="mechanic-grid">
+                <div class="mechanic-card">
+                    <div class="mechanic-glyph">⚔</div>
+                    <div class="mechanic-name">Melee</div>
+                    <p class="mechanic-desc">Direct attack against enemies haunting the ruins. Fast, precise, risky — it demands close range.</p>
+                </div>
+                <div class="mechanic-card">
+                    <div class="mechanic-glyph">◈</div>
+                    <div class="mechanic-name">Throw &amp; Teleport</div>
+                    <p class="mechanic-desc">Throw the blade at a surface or enemy and instantly dash to its location. Cross chasms, dodge traps, chain movements together.</p>
+                </div>
+                <div class="mechanic-card">
+                    <div class="mechanic-glyph">⬡</div>
+                    <div class="mechanic-name">Surfaces &amp; Constraints</div>
+                    <p class="mechanic-desc">Some surfaces absorb or repel the blade, forcing the player to anticipate their trajectory. Every level becomes a mobility puzzle.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="ornament">
+            <div class="ornament-line"></div>
+            <span class="ornament-center">✦</span>
+            <div class="ornament-line"></div>
+        </div>
+
+        <!-- Boucle de jeu -->
+        <div class="section">
+            <div class="section-header">
+                <span class="section-num">03</span>
+                <span class="section-title">Game loop — Fail, learn, transcend</span>
+                <div class="section-rule"></div>
+            </div>
+
+            <div class="loop-steps">
+                <div class="loop-step">
+                    <div class="loop-step-num">I</div>
+                    <div class="loop-step-body">
+                        <div class="loop-step-name">Observation</div>
+                        <p class="loop-step-desc">Scout compatible surfaces, traps, enemies and possible trajectories. Every level is read before it is played.</p>
+                    </div>
+                </div>
+                <div class="loop-step">
+                    <div class="loop-step-num">II</div>
+                    <div class="loop-step-body">
+                        <div class="loop-step-name">Action</div>
+                        <p class="loop-step-desc">Throw the sword, teleport, dodge, fight. <em>Tension and fluidity are the keys to gameplay pleasure.</em> Aim, throw, teleport, strike, move on — no pause.</p>
+                    </div>
+                </div>
+                <div class="loop-step">
+                    <div class="loop-step-num">III</div>
+                    <div class="loop-step-body">
+                        <div class="loop-step-name">Failure or success</div>
+                        <p class="loop-step-desc">Contact with a trap or loss of energy → instant restart. Exit reached → memory fragment unlocked. <em>Every death is fast, every restart is a lesson.</em></p>
+                    </div>
+                </div>
+                <div class="loop-step">
+                    <div class="loop-step-num">IV</div>
+                    <div class="loop-step-body">
+                        <div class="loop-step-name">Progression</div>
+                        <p class="loop-step-desc">Each fragment reveals part of the protagonist's story and strengthens the bond with the sword — minor improvements to range, speed or precision.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ornament">
+            <div class="ornament-line"></div>
+            <span class="ornament-center">✦</span>
+            <div class="ornament-line"></div>
+        </div>
+
+        <!-- Spécifications techniques -->
+        <div class="section">
+            <div class="section-header">
+                <span class="section-num">04</span>
+                <span class="section-title">Technical specifications &amp; art direction</span>
+                <div class="section-rule"></div>
+            </div>
+
+            <table class="spec-table">
+                <thead>
+                    <tr>
+                        <th>Élément</th>
+                        <th>Détail</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>View</td>
+                        <td>2D side-view</td>
+                    </tr>
+                    <tr>
+                        <td>Controls</td>
+                        <td>Fluid movement, jump, sword throw, teleport, attack</td>
+                    </tr>
+                    <tr>
+                        <td>Pace</td>
+                        <td>Fast but precise — every action demands mastery and anticipation</td>
+                    </tr>
+                    <tr>
+                        <td>Feedback</td>
+                        <td>Vibration and light flash on teleport, slow motion on impact</td>
+                    </tr>
+                    <tr>
+                        <td>HUD</td>
+                        <td>Minimalist — health bar and spiritual energy discreetly integrated at screen edges</td>
+                    </tr>
+                    <tr>
+                        <td>Art direction</td>
+                        <td>Stone, moss and golden glow. Medieval ruins engulfed in mist. Crumbling statues, suspended temples, spiritual light</td>
+                    </tr>
+                    <tr>
+                        <td>Soundtrack</td>
+                        <td>Minimalist and ethereal — underlines the protagonist's solitude and the world's desolate beauty</td>
+                    </tr>
+                    <tr>
+                        <td>Inspirations</td>
+                        <td>Celeste (level design, precision) · Jaded (rhythmic combat) · Hollow Knight (boss fights, atmosphere)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Conclusion -->
+        <div class="conclusion section">
+            <p class="conclusion-quote">
+                Spirit Dash is an experience of precision and transcendance:<br>
+                a blend of <em>physical rhythm</em> and mental reflection.<br><br>
+                Reclaim your form. Remember.<br>
+                And let the spirit guide the blade.
+            </p>
+            <div class="conclusion-glyph">༺༻</div>
+        </div>
+
+    </main>
+
+    <script>
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+        }, { threshold: 0.08 });
+
+        document.querySelectorAll('.section').forEach(el => observer.observe(el));
+    </script>
+
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var btn      = document.getElementById("lang-btn");
+        var dropdown = document.getElementById("lang-dropdown");
+        if (!btn || !dropdown) return;
+        btn.addEventListener("click", function(e) {
+            e.stopPropagation();
+            var isOpen = dropdown.classList.toggle("open");
+            btn.classList.toggle("open", isOpen);
+        });
+        document.addEventListener("click", function() {
+            dropdown.classList.remove("open");
+            btn.classList.remove("open");
+        });
+    });
+    </script>
+</body>
+</html>
